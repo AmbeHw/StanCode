@@ -2,7 +2,7 @@
 ## List 
 
 * Karel  
-  [lecture01](link)  
+  [lecture01](https://github.com/AmbeHw/StanCode/tree/main/lecture01)  
   [lecture02](link)  
   [lecture03](link)  
 * Python "Hello World!"  
