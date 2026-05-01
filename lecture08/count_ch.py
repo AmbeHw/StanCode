@@ -1,0 +1,36 @@
+"""
+File: count_ch.py
+Name:黃文晴
+----------------------
+The goal of this program is to count
+the number of uppercase letters in
+different words: 'ApPLE', 'Jerry', and 'PineApple'.
+
+It defines a function called
+num_upper() to perform the counting.
+This function is then used to count
+the uppercase letters in several
+example words and print the results.
+"""
+
+
+def main():
+    s = 'ApPLE'
+    s2 = 'Jerry'
+    s3 = 'PineApple'
+    print(num_upper(s))
+    print(num_upper(s2))
+    print(num_upper(s3))
+
+def num_upper(s):
+    num = 0
+    for i in range(len(s)):
+        if 65 <= ord(s[i]) <= 90:
+            num += 1
+    return num
+
+
+
+
+if __name__ == '__main__':
+    main()
