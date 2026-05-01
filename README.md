@@ -1,5 +1,4 @@
-# StanCode
-## List 
+# List 
 
 * Karel  
   [lecture01](https://github.com/AmbeHw/StanCode/tree/main/lecture01)  
